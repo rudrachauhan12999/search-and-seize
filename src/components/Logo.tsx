@@ -4,8 +4,7 @@
  */
 
 import React, { useEffect, useState } from 'react';
-import { Compass, Sparkles } from 'lucide-react';
-import { GirlExplorerSprite } from './GameAssets';
+import { Sparkles } from 'lucide-react';
 
 interface LogoProps {
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -54,17 +53,12 @@ export const Logo: React.FC<LogoProps> = ({
     );
   }
 
-  // Official Girl Explorer + Compass Gold Badge
+  // Official SEARCH & SEIZE logo artwork
   return (
     <div
-      className={`relative inline-flex items-center justify-center select-none shrink-0 rounded-2xl bg-gradient-to-br from-[#facc15] via-[#eab308] to-[#ca8a04] p-1 border-2 border-[#451a03] shadow-[0_3px_0_#2b1103] ${dimensionClass} ${className}`}
+      className={`relative inline-flex items-center justify-center select-none shrink-0 rounded-2xl overflow-hidden border-2 border-[#451a03] shadow-[0_3px_0_#2b1103] ${dimensionClass} ${className}`}
     >
-      <div className="relative w-full h-full rounded-xl bg-gradient-to-b from-[#0284c7] to-[#0369a1] border border-cyan-200/50 flex items-center justify-center overflow-hidden">
-        <GirlExplorerSprite className="w-full h-full scale-125 translate-y-1" showArrow={false} />
-        <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-yellow-400 border border-black flex items-center justify-center shadow-xs">
-          <Compass className="w-2.5 h-2.5 text-black" />
-        </div>
-      </div>
+      <img src="/logo.jpg" alt="SEARCH & SEIZE" className="w-full h-full object-cover" />
     </div>
   );
 };

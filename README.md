@@ -1,5 +1,7 @@
 # SEARCH & SEIZE — AI Search & Strategy
 
+<img width="280" alt="Search & Seize logo" src="public/logo.jpg" />
+
 *You and an AI race around a treasure map, collecting treasures. Every turn, you move one square. The AI thinks ahead and chooses its move using Minimax + Alpha-Beta. Whoever collects the most treasure wins.*
 
 A 2-player turn-based treasure hunting game on an 8x8 parchment map. Navigate ancient stone ruins, outmaneuver an intelligent AI agent, and seize high-value artifacts before your opponent!
