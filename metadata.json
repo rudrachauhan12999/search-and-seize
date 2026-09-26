@@ -1,0 +1,6 @@
+{
+  "name": "SEARCH & SEIZE — AI Search & Strategy",
+  "description": "A 2-player turn-based treasure hunting game. Search smart. Seize the treasure. Features Minimax, Alpha-Beta pruning, and BFS strategy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
