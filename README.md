@@ -1,6 +1,6 @@
 # SEARCH & SEIZE — AI Search & Strategy
 
-*You and an AI race around a treasure map, collecting treasures. Every turn, you move one square. The AI thinks ahead and chooses its move using Minimax + Alpha-Beta. Whoever collects the most treasure wins.*
+You and an AI race around a treasure map, collecting treasures. Every turn, you move one square. The AI thinks ahead and chooses its move using Minimax + Alpha-Beta. Whoever collects the most treasure wins.
 
 A 2-player turn-based treasure hunting game on an 8x8 parchment map. Navigate ancient stone ruins, outmaneuver an intelligent AI agent, and seize high-value artifacts before your opponent!
 
@@ -8,7 +8,7 @@ A 2-player turn-based treasure hunting game on an 8x8 parchment map. Navigate an
 
 ## Live Demo
 
-Play it now: **[search-and-seize.vercel.app](https://search-and-seize.vercel.app)**
+Play it now : **[search-and-seize.vercel.app](https://search-and-seize.vercel.app)**
 
 ---
 
