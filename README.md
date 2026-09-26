@@ -6,7 +6,13 @@ A 2-player turn-based treasure hunting game on an 8x8 parchment map. Navigate an
 
 ---
 
-##  Game Overview
+## 🌐 Live Demo
+
+Play it now: **[search-and-seize.vercel.app](https://search-and-seize.vercel.app)**
+
+---
+
+## 🎮 Game Overview
 
 - **Format**: 2-player turn-based tactical grid (Human Explorer vs. AI Robot).
 - **Board**: 8x8 treasure map with stone ruins, palm obstacles, and dynamic artifact deposits.
@@ -19,7 +25,7 @@ A 2-player turn-based treasure hunting game on an 8x8 parchment map. Navigate an
 
 ---
 
-##  Classical AI & Search Algorithms
+## 🤖 Classical AI & Search Algorithms
 
 Search & Seize serves as an interactive playground for exploring classical search and game theory algorithms:
 
@@ -44,7 +50,7 @@ $$\text{Total Evaluation} = \text{Score Advantage} + \text{Treasure Advantage} +
 
 ---
 
-##  Randomized Expeditions
+## 🗺️ Randomized Expeditions
 
 Every **New Expedition** (New Game / Restart) generates a fresh, validated 8x8 board instead of reusing a fixed layout:
 
@@ -58,7 +64,7 @@ The generated board becomes the actual `GameState` consumed by the human, the AI
 
 ---
 
-##  Controls & Navigation
+## 🕹️ Controls & Navigation
 
 - **Directional Movement**: Move `UP`, `DOWN`, `LEFT`, or `RIGHT` using the on-screen tactile D-Pad or keyboard arrow keys / `W`, `A`, `S`, `D`.
 - **Game Controls**: Quick **Restart**, **Pause**, or **New Expedition**.
@@ -66,7 +72,7 @@ The generated board becomes the actual `GameState` consumed by the human, the AI
 
 ---
 
-##  Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
 - **Framework**: React 19 + TypeScript
 - **Bundler**: Vite
@@ -103,7 +109,7 @@ src/
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v18+ or v20+)
